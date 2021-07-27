@@ -15,6 +15,11 @@ class student
         id=x;
         gpa=y ;
 
+    }
+
+    student ()
+    {
+        cout << " Default constractor " <<endl  ;
     }        
 
     void display ()
@@ -28,6 +33,8 @@ class student
 
 int main ()
 {
+
+    student ob ;
 
     student rafin(2507,4.88);
     rafin.display();
